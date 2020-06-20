@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AFBI</title>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+	<div class="fixed-left">
+		<a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+		<div class="fixed-left-info">
+			<p class="copyright">© 2012-2018, ALL RIGHTS RESERVED</p>
+			<span class="border"></span>
+			<ul class="social">
+				<li><a href="#"><img src="img/fb-icon.svg" alt=""></a></li>
+				<li><a href="#"><img src="img/insta-icon.svg" alt=""></a></li>
+			</ul>
+			<div class="scroll-icon"><img src="img/scroll-mouse-icon.svg" alt=""></div>
+		</div>
+	</div>
+	<div class="fixed-right">
+		<a href="#" class="drop-menu"><img src="img/drop-menu-icon.svg" alt=""></a>
+		<div class="menu-overlay"></div>
+		<div class="menu-wrap">
+			<div class="menu-content">
+				<a href="#" class="close"><img src="img/close-icon.svg" alt=""></a>
+				<div class="menu-list">
+					<div class="main-menu-wrap">
+						<ul class="main-menu" id="main-menu">
+							<li><a href="/#home">Главная</a></li>
+							<li><a href="#" class="about-assosiation">Об Ассоциации<img src="img/arr-right.svg" alt=""></a></li>
+							<li><a href="/#gallery">Галерея</a></li>
+							<li><a href="/#news">Новости</a></li>
+							<li><a href="/#posters">Мероприятия/Афиши</a></li>
+							<li><a href="/#directions">Все федерации</a></li>
+							<li><a href="/#contact">Контакты</a></li>
+						</ul>
+						<div class="soc-lang-wrap">
+							<ul class="social">
+								<li><a href="#"><img src="img/fb-icon.svg" alt=""></a></li>
+								<li><a href="#"><img src="img/insta-icon.svg" alt=""></a></li>
+							</ul>
+							<ul class="lang-menu">
+								<li><a href="#">ENG</a></li>
+								<li><a href="#">QAZ</a></li>
+								<li class="active"><a href="#">РУС</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="about-assosiation-menu-wrap">
+						<a href="#" class="back-to-main-menu"><img src="img/arr-left.svg" alt="">Об Ассоциации</a>
+						<ul class="about-assosiation-menu">
+							<li><a href="association-history.html">История</a></li>
+							<li><a href="presidents-word.html">Слово Первого президента</a></li>
+							<li><a href="managers-word.html">Слово Руководителя</a></li>
+							<li><a href="association-members.html">Члены ассоциации</a></li>
+							<li><a href="manual.html">Руководство</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fixed-right-info">
+			<ul class="lang-menu">
+				<li><a href="#">ENG</a></li>
+				<li><a href="#">QAZ</a></li>
+				<li class="active"><a href="#">РУС</a></li>
+			</ul>
+			<p class="brand-text">Build by appazov & angrycode</p>
+		</div>
+	</div>
+	<div class="fixed-menu-bg"></div>
+
+
+	<main id="barba-wrapper">
+		<div class="barba-container" data-namespace="index">
+			<div id="fullpage">
+
+				<div class="section section-home" data-anchor="home" id="homeAnimation">
+					<div class="home-slider">
+						<div class="item" title="">
+							<div class="bg animated" style="background-image: url('img/home-bg.jpg');"></div>
+							<div class="container">
+								<div class="text-wrap home-slide">
+									<h2>Qazaqstannyń<br> jaýyngerlik Oner <br> Associaciasy</h2>
+									<a href="greedy-furnishings-in.html" class="read-more">О нас</a>
+								</div>
+							</div>
+						</div>
+						<div class="item" title="Единоборства">
+							<div class="bg" style="background-image: url('img/martial-bg.jpg');"></div>
+							<div class="container">
+								<div class="text-wrap">
+									<h2>Единоборства</h2>
+									<a href="#" class="read-more">Узнать подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="item" title="Полноконтактные виды спорта">
+							<div class="bg" style="background-image: url('img/full-contact-bg.jpg');"></div>
+							<div class="container">
+								<div class="text-wrap">
+									<h2>Полноконтактные <br>виды спорта</h2>
+									<a href="#" class="read-more">Узнать подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="item" title="Смешанные единоборства MMA">
+							<div class="bg" style="background-image: url('img/mixed-martial-bg.jpg');"></div>
+							<div class="container">
+								<div class="text-wrap">
+									<h2>Смешанные <br> единоборства MMA</h2>
+									<a href="#" class="read-more">Узнать подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="item" title="Каратэ">
+							<div class="bg" style="background-image: url('img/karate.jpg');"></div>
+							<div class="container">
+								<div class="text-wrap">
+									<h2>Каратэ</h2>
+									<a href="#" class="read-more">Узнать подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section section-directions" data-anchor="directions" id="directionsAnimation">
+					<div class="directions" id="direction">
+						<h2>Направления</h2>
+						<div class="directions-list">
+							<div class="directions-item">
+								<span class="border"></span>
+								<div class="img-wrap" style="background-image: url(img/img-1.png)"></div>
+								<div class="img-wrap-2" style="background-image: url(img/img1-1.png)"></div>
+								<p>Единоборства</p>
+								<a href="direction-in.html" class="more">Узнать подробнее</a>
+							</div>
+							<div class="directions-item">
+								<span class="border"></span>
+								<div class="img-wrap" style="background-image: url(img/img-2.png)"></div>
+								<div class="img-wrap-2" style="background-image: url(img/img1-2.png)"></div>
+								<p>Полноконтактные <br> виды спорта</p>
+								<a href="direction-in.html" class="more">Узнать подробнее</a>
+							</div>
+							<div class="directions-item">
+								<span class="border"></span>
+								<div class="img-wrap" style="background-image: url(img/img-3.png)"></div>
+								<div class="img-wrap-2" style="background-image: url(img/img1-3.png)"></div>
+								<p>Смешанные <br> единоборства MMA</p>
+								<a href="direction-in.html" class="more">Узнать подробнее</a>
+							</div>
+							<div class="directions-item">
+								<span class="border"></span>
+								<div class="img-wrap" style="background-image: url(img/img-4.png)"></div>
+								<div class="img-wrap-2" style="background-image: url(img/img1-4.png)"></div>
+								<p>Каратэ</p>
+								<a href="direction-in.html" class="more">Узнать подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section section-bg" data-anchor="news" id="newsAnimation">
+					<div class="big-container news-container">
+						<div class="news-wrap">
+							<div class="top-news">
+								<h2>Новости</h2>
+								<ul class="all-news-menu">
+									<li class="active"><a href="#">Все</a></li>
+									<li><a href="#">Полноконтактные виды</a></li>
+									<li><a href="#">Единоборства мма</a></li>
+									<li><a href="#">Единоборства</a></li>
+									<li><a href="#">Направление каратэ</a></li>
+								</ul>
+							</div>
+							<div class="news-slider-wrap">
+								<div class="nav-wrap">
+									<a href="all-news.html" class="all-news-link">Все новости</a>
+									<div class="slider-navigation">
+										<button type="button" class="slick-prev"></button>
+										<div class="brd"></div>
+										<button type="button" class="slick-next"></button>
+									</div>
+								</div>
+								<div class="news-slider">
+									<a href="all-news.html" class="news-big news-item">
+									<div class="bg" style="background-image: url(img/news-big-img1.jpg)"></div>
+									<span class="news-text-wrap">
+										<span class="date">
+											<span class="left">
+												<img src="img/bourgeois-icon.svg" alt="">
+												<span class="text">Новости</span>
+											</span>
+											<span class="right">23 окт. 2018</span>
+										</span>
+										<span class="info">
+											<span class="top">
+												<img src="img/time-icon.svg" alt="">
+												<span class="text">16:13</span>
+											</span>
+											<h2>Создана Столичная Ассоциация боевых искусств</h2>
+											<span class="learn-more">Узнать подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a href="all-news.html" class="news-big news-item">
+									<div class="bg" style="background-image: url(img/news-big-img2.jpg)"></div>
+									<span class="news-text-wrap">
+										<span class="date">
+											<span class="left">
+												<img src="img/bourgeois-icon.svg" alt="">
+												<span class="text">Новости</span>
+											</span>
+											<span class="right">23 окт. 2018</span>
+										</span>
+										<span class="info info-mini">
+											<span class="top">
+												<img src="img/time-icon.svg" alt="">
+												<span class="text">16:13</span>
+											</span>
+											<h2>Итоги первенства района Сары-арка</h2>
+											<span class="learn-more">Узнать подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a href="all-news.html" class="news-big news-item">
+									<div class="bg" style="background-image: url(img/news-big-img1.jpg)"></div>
+									<span class="news-text-wrap">
+										<span class="date">
+											<span class="left">
+												<img src="img/bourgeois-icon.svg" alt="">
+												<span class="text">Новости</span>
+											</span>
+											<span class="right">23 окт. 2018</span>
+										</span>
+										<span class="info">
+											<span class="top">
+												<img src="img/time-icon.svg" alt="">
+												<span class="text">16:13</span>
+											</span>
+											<h2>Создана Столичная Ассоциация боевых искусств</h2>
+											<span class="learn-more">Узнать подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a href="all-news.html" class="news-big news-item">
+									<div class="bg" style="background-image: url(img/news-big-img2.jpg)"></div>
+									<span class="news-text-wrap">
+										<span class="date">
+											<span class="left">
+												<img src="img/bourgeois-icon.svg" alt="">
+												<span class="text">Новости</span>
+											</span>
+											<span class="right">23 окт. 2018</span>
+										</span>
+										<span class="info info-mini">
+											<span class="top">
+												<img src="img/time-icon.svg" alt="">
+												<span class="text">16:13</span>
+											</span>
+											<h2>Итоги первенства района Сары-арка</h2>
+											<span class="learn-more">Узнать подробнее</span>
+										</span>
+									</span>
+								</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section section-bg" data-anchor="posters" id="postersAnimation">
+					<div class="big-container poster-container">
+						<div class="news-wrap">
+							<div class="top-news">
+								<h2>Афиша</h2>
+							</div>
+							<div class="poster-slider-wrap">
+								<div class="nav-wrap">
+									<a href="poster.html" class="all-news-link">Все афиши</a>
+									<div class="slider-navigation">
+										<button type="button" class="slick-prev"></button>
+										<div class="brd"></div>
+										<button type="button" class="slick-next"></button>
+									</div>
+								</div>
+								<div class="poster-slider">
+									<a href="poster.html" class="poster-item">
+										<img src="img/poster-img1.jpg" alt="">
+										<span class="text-wrap">
+											<span class="title">Республиканский кубок по Киокушинкай каратэ-до</span>
+											<span class="month">15-18 февраля</span>
+											<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+										</span>
+									</a>
+									<a href="poster.html" class="poster-item">
+										<img src="img/poster-img2.jpg" alt="">
+										<span class="text-wrap">
+											<span class="title">Чемпионат Казахстана по греплингу среди мужчин и женщин</span>
+											<span class="month">15-18 февраля</span>
+											<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+										</span>
+									</a>
+									<a href="poster.html" class="poster-item">
+										<img src="img/poster-img3.jpg" alt="">
+										<span class="text-wrap">
+											<span class="title">Титульный бой Данияра Елеусинова пройдет на EXPO - Астана</span>
+											<span class="month">15-18 февраля</span>
+											<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+										</span>
+									</a>
+									<a href="poster.html" class="poster-item">
+										<img src="img/poster-img4.jpg" alt="">
+										<span class="text-wrap">
+											<span class="title">Мастер-класс от Ерлана Тлеумбетова в Алмате</span>
+											<span class="month">15-18 февраля</span>
+											<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+										</span>
+									</a>
+									<a href="poster.html" class="poster-item">
+							<img src="img/poster-img1.jpg" alt="">
+							<span class="text-wrap">
+								<span class="title">Республиканский кубок по Киокушинкай каратэ-до</span>
+								<span class="month">15-18 февраля</span>
+								<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+							</span>
+						</a>
+									<a href="poster.html" class="poster-item">
+							<img src="img/poster-img2.jpg" alt="">
+							<span class="text-wrap">
+								<span class="title">Чемпионат Казахстана по греплингу среди мужчин и женщин</span>
+								<span class="month">15-18 февраля</span>
+								<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+							</span>
+						</a>
+									<a href="poster.html" class="poster-item">
+							<img src="img/poster-img3.jpg" alt="">
+							<span class="text-wrap">
+								<span class="title">Титульный бой Данияра Елеусинова пройдет на EXPO - Астана</span>
+								<span class="month">15-18 февраля</span>
+								<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+							</span>
+						</a>
+									<a href="poster.html" class="poster-item">
+							<img src="img/poster-img4.jpg" alt="">
+							<span class="text-wrap">
+								<span class="title">Мастер-класс от Ерлана Тлеумбетова в Алмате</span>
+								<span class="month">15-18 февраля</span>
+								<span class="address">г. Астана, Мангилик Ел 25, <br> спортзал “Казахстан”</span>
+							</span>
+						</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section gallery-bg" data-anchor="gallery" id="galleryAnimation">
+					<div class="big-container gallery-container">
+						<h3>Галерея</h3>
+						<div class="gallery-tab-wrap">
+							<div class="tab-content-wrap">
+								<h2>Gallery</h2>
+								<ul class="tab-content custom-scroll">
+									<li class="tab-content-item">
+										<div class="video-blocks">
+											<div class="video-blocks-wrap">
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+										</div>
+										</div>
+									</li>
+									<li class="tab-content-item">
+										<div class="video-blocks">
+										<div class="video-blocks-wrap">
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+										</div>
+										</div>
+									</li>
+									<li class="tab-content-item">
+										<div class="video-blocks">
+										<div class="video-blocks-wrap">
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											</div>
+										</div>
+									</li>
+									<li class="tab-content-item">
+										<div class="video-blocks">
+										<div class="video-blocks-wrap">
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-2.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-3.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											<a href="https://www.youtube.com/watch?v=SAsJ_n747T4" class="video-block popup-video" style="background-image: url(img/video-img-1.jpg)">
+											<img src="img/video-play-icon.svg" alt="" class="play">
+											<span class="text">Любительский чемпионат <br> по боксу среди юниоров</span>
+										</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="gallery-tab-menu-wrap">
+								<h2>Альбомы</h2>
+								<ul class="tab-menu">
+									<li><a href="#">Видеогалерея</a></li>
+									<li><a href="#">Фотогалерея</a></li>
+									<li><a href="#">Прямая трансляция</a></li>
+									<li><a href="#">Турниры/Чемпионаты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section section-bg" data-anchor="partners" id="partnersAnimation">
+					<div class="big-container partners-container">
+						<div class="partners-wrap">
+							<h2>Партнеры</h2>
+							<ul class="partners-logo-list">
+								<li><a href="#"><img src="img/partners-img1.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img2.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img1.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img2.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img1.jpg" alt=""></a></li>
+							</ul>
+							<ul class="partners-logo-list">
+								<li><a href="#"><img src="img/partners-img1.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img2.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img1.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img2.jpg" alt=""></a></li>
+								<li><a href="#"><img src="img/partners-img1.jpg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="section" data-anchor="contact" id="footerAnimation">
+					<div class="contact-block footer" id="contact-block">
+						<div class="big-container container-footer">
+							<div class="contact-info">
+								<div class="location-wrap">
+									<h2>Контакты</h2>
+									<div class="location">
+										<h3>Местонахождение:</h3>
+										<span>010000, г.Астана,</span>
+										<span>ул.Мангилик ел, 55</span>
+										<a href="mailto:jayynger@gmail.com">jayynger@gmail.com</a>
+										<span>Ежедневно</span>
+										<span>с 9:00 до 18:30</span>
+									</div>
+								</div>
+								<div class="location-2">
+									<h3>Пресс-секретарь</h3>
+									<span>Раухан Тугумбаева</span>
+									<a href="tel:+77711838853">+7 (771) 183 88 53</a>
+									<h3>Секретарь-референт</h3>
+									<span>Аяулым Ильяшева</span>
+									<a href="tel:+77082423148">+7 (708) 242 31 48</a>
+								</div>
+								<div class="feedback">
+									<h2>Обратная связь</h2>
+									<div class="inputs-wrapper">
+										<div class="input-wrap ffl-wrapper">
+											<label class="ffl-label" for="input-1"><div>Ваше имя</div></label>
+											<input id="input-1" type="text">
+										</div>
+										<div class="input-wrap ffl-wrapper">
+											<label class="ffl-label" for="input-2"><div>Ваша фамилия</div></label>
+											<input id="input-2" type="text">
+										</div>
+										<div class="input-wrap ffl-wrapper">
+											<label class="ffl-label" for="input-3"><div>Ваш e-mail</div></label>
+											<input id="input-3" type="text">
+										</div>
+										<div class="input-wrap ffl-wrapper">
+											<label class="ffl-label" for="input-4"><div>Ваш сотовый</div></label>
+											<input id="input-4" type="text">
+										</div>
+									</div>
+									<div class="input-wrap ffl-wrapper">
+										<label class="ffl-label" for="input-5"><div>Тема письма</div></label>
+										<input id="input-5" type="text">
+									</div>				
+									<div class="input-wrap ffl-wrapper">
+										<label class="ffl-label" for="input-6"><div>Сообщение</div></label>
+										<input id="input-6" type="text">
+									</div>
+									<button type="submit">Отправить</button>
+								</div>
+							</div>
+							<div id="map"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</main>
+	
+	<div id="preloader">
+	  	<img src="img/logo.svg" alt="logo" class="logo">
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/barba.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2/velocity.ui.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/jquery.smooth-scroll.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/floatingFormLabels.min.js"></script>
+	<script src="js/pace.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+		function initMap() {
+			var map = new google.maps.Map(document.getElementById('map'), {
+				center: {
+					lat: 51.127743,
+					lng: 71.451832
+				},
+				disableDefaultUI: true,
+				zoom: 14,
+				styles: [{
+						elementType: 'geometry',
+						stylers: [{
+							color: '#353535'
+						}]
+					},
+					{
+						elementType: 'labels.text.stroke',
+						stylers: [{
+							color: '#353535'
+						}]
+					},
+					{
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'administrative.locality',
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'poi',
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'poi.park',
+						elementType: 'geometry',
+						stylers: [{
+							color: '#353535'
+						}]
+					},
+					{
+						featureType: 'poi.park',
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'road',
+						elementType: 'geometry',
+						stylers: [{
+							color: '#2E2E2E'
+						}]
+					},
+					{
+						featureType: 'road',
+						elementType: 'geometry.stroke',
+						stylers: [{
+							color: '#2E2E2E'
+						}]
+					},
+					{
+						featureType: 'road',
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'geometry',
+						stylers: [{
+							color: '#353535'
+						}]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'geometry.stroke',
+						stylers: [{
+							color: '#353535'
+						}]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'transit',
+						elementType: 'geometry',
+						stylers: [{
+							color: '#353535'
+						}]
+					},
+					{
+						featureType: 'transit.station',
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'water',
+						elementType: 'geometry',
+						stylers: [{
+							color: '#2B2B2B'
+						}]
+					},
+					{
+						featureType: 'water',
+						elementType: 'labels.text.fill',
+						stylers: [{
+							color: '#666666'
+						}]
+					},
+					{
+						featureType: 'water',
+						elementType: 'labels.text.stroke',
+						stylers: [{
+							color: '#2B2B2B'
+						}]
+					}
+				]
+			});
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKiRPBCm5DFZgNuRS-ZgnQWt2J4-Ek9ZI&callback=initMap" async defer></script>
+
+</body>
+
+</html>
